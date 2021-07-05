@@ -27,8 +27,8 @@ def quick_sort(arr, left, right):
 arr = [5,4,3,2,1,10,9,8,7,6,11]
 '''
 for randomly assigned array
-import numpy as np
-arr = np.random.randn(100)
+>>> import numpy as np
+>>> arr = np.random.randn(100)
 '''
 print('Before:', arr)
 quick_sort(arr, 0, len(arr)-1)
